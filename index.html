@@ -109,7 +109,6 @@
   
   <!-- Include Animate.css for smooth animations -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  
   <!-- Features Section -->
   <section id="features" class="px-6 py-16 bg-black">
     <h2 class="text-3xl font-bold text-center gradient-text mb-10">What Makes Trimify Unique?</h2>
@@ -131,7 +130,6 @@
       </div>
     </div>
   </section>
-
   <!-- Expertise Section -->
   <section id="expertise" class="px-6 py-16 bg-gray-900">
     <h2 class="text-3xl font-bold text-center gradient-text mb-10">Expertise & Tools</h2>
@@ -144,7 +142,6 @@
       <div><img src="assets/images/blender.png" alt="Blender" class="mx-auto w-16 h-16"><p class="mt-2">Blender</p></div>
     </div>
   </section>
-
   <!-- Portfolio Section -->
   <section id="videos" class="px-6 py-16 bg-black">
     <h2 class="text-3xl font-bold text-center gradient-text mb-8">Featured Videos</h2>
@@ -171,23 +168,47 @@
       </div>
     </div>
   </section>
+  <!-- Photo Gallery Section -->
+<section id="gallery" class="px-6 py-16 bg-gray-900 text-center">
+  <h2 class="text-3xl font-bold mb-8 text-yellow-400">Photo Gallery</h2>
 
-  <!-- Pricing Section -->
+  <div class="flex overflow-x-auto space-x-4 px-2 md:px-20 scrollbar-hide">
+    <!-- Photo 1 -->
+    <div class="flex-shrink-0 w-48 md:w-64">
+      <img src="assets/pictures/image floral .jpg" alt="Photo 1" class="w-full h-auto rounded-xl shadow-md" />
+    </div>
+    <!-- Photo 2 -->
+    <div class="flex-shrink-0 w-48 md:w-64">
+      <img src="assets/pictures/image01.jpg" alt="Photo 2" class="w-full h-auto rounded-xl shadow-md" />
+    </div>
+    <!-- Photo 3 -->
+    <div class="flex-shrink-0 w-48 md:w-64">
+      <img src="assets/pictures/image (9).jpg" alt="Photo 3" class="w-full h-auto rounded-xl shadow-md" />
+    </div>
+    <!-- Photo 4 -->
+    <div class="flex-shrink-0 w-48 md:w-64">
+      <img src="assets/pictures/image.jpg" alt="Photo 4" class="w-full h-auto rounded-xl shadow-md" />
+    </div>
+    <!-- Photo 5 -->
+    <div class="flex-shrink-0 w-48 md:w-64">
+      <img src="assets/pictures/image (11).jpg" alt="Photo 5" class="w-full h-auto rounded-xl shadow-md" />
+    </div>
+  </div>
+</section>
+ <!-- Pricing Section -->
   <section id="pricing" class="px-6 py-16 text-center bg-gray-900">
-    <h3 class="text-3xl font-bold mb-8 gradient-text">Our Packages</h3>
+    <h3 class="text-3xl font-bold mb-8 gradient-text">Aur Packages</h3>
     <p class="text-gray-300 max-w-3xl mx-auto">We offer customized video editing services that suit your needs. Whether you need a quick edit or a comprehensive project, we ensure high-quality results every time. Reach out for a consultation!</p>
     <div class="mt-8">
       <a href="#contact" class="btn-primary">Get a Quote</a>
     </div>
   </section>
-
   <!-- Testimonials Section -->
   <section id="testimonials" class="px-6 py-16 bg-black text-center">
     <h3 class="text-3xl font-bold mb-8 gradient-text">What Clients Say</h3>
     <div class="text-gray-300 max-w-3xl mx-auto italic">"Trimify transformed our raw footage into a stunning narrative. <span class='text-lime-400 font-medium'>Priyanshu</span> is a magician with edits!" – Happy Client</div>
   </section>
-
-  <!-- Contact Section -->
+ <!-- Contact Section -->
   <section id="contact" class="px-6 py-16 bg-gray-900 text-center">
     <h3 class="text-3xl font-bold mb-8 gradient-text">Get in Touch</h3>
     <form action="https://formcarry.com/s/azQ8sovihnL" method="POST" class="max-w-xl mx-auto space-y-4">
@@ -196,7 +217,6 @@
       <textarea name="message" placeholder="Your Message" required rows="4"></textarea>
       <button type="submit" class="btn-primary">Send Message</button>
     </form>
-
 <!-- Footer Section (All Rights Reserved) -->
 <footer class="bg-gradient-to-r from-gray-900 via-gray-800 to-black py-16 text-center text-gray-300">
   <div class="max-w-7xl mx-auto px-6">
@@ -207,7 +227,6 @@
       </p>
       <p class="text-lg text-gray-400">Crafting Stories, One Frame at a Time.</p>
     </div>
-
     <!-- Social & Contact Links -->
     <div class="flex justify-center space-x-8 mb-8">
       <!-- Email Link -->
@@ -221,10 +240,8 @@
         <span>WhatsApp</span>
       </a>
     </div>
-
     <!-- Separator Line -->
     <div class="border-t border-gray-600 pt-6 mb-6"></div>
-
     <!-- Design Credit Section -->
     <div>
       <p class="text-sm text-gray-500 font-light">
@@ -232,20 +249,16 @@
         <span class="font-semibold text-yellow-400">Priyanshu Kashyap</span>
       </p>
     </div>
-
     <!-- Scroll Down Icon -->
     <div class="mt-8">
       <a href="#hero" class="text-yellow-400 hover:text-white text-2xl font-bold">
-        <i class="fas fa-arrow-up"></i> Back to Top
+        <i class="fas fa-arrow-up"></i> THANKS
       </a>
     </div>
   </div>
 </footer>
-
 <!-- Add Font Awesome Script -->
 <script src="https://kit.fontawesome.com/a2d9d6b3f1.js" crossorigin="anonymous"></script>
-
-
   <!-- GSAP Animations -->
   <script>
     gsap.registerPlugin(ScrollTrigger);
@@ -254,7 +267,6 @@
       gsap.from(sec, { opacity: 0, y: 50, duration: 1, scrollTrigger: { trigger: sec, start: 'top 80%' } });
     });
   </script>
-
   <!-- Mobile Menu Toggle -->
   <script>
     const menuBtn = document.getElementById('menu-btn');
@@ -264,6 +276,33 @@
       mobileMenu.classList.toggle('translate-x-0');
     });
   </script>
+  <!-- Back to Top Button -->
+<button id="backToTopBtn" title="Go to top"
+class="fixed bottom-6 right-6 hidden bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded-full shadow-lg transition-opacity duration-300">
+↑ Top
+</button>
+
+<script>
+// Show button after scroll
+const backToTopBtn = document.getElementById("backToTopBtn");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTopBtn.classList.remove("hidden");
+  } else {
+    backToTopBtn.classList.add("hidden");
+  }
+});
+
+// Scroll to top smoothly
+backToTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+</script>
+
   
 </body>
 
